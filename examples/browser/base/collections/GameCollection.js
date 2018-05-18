@@ -7,5 +7,4 @@ export class GameCollection extends BaseCollection {
 			model: GameModel
 		}))
 	}
-
 }

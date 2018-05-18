@@ -9,7 +9,6 @@
     "prepublish": "npm run clean && npm run build",
     "cwd": "pwd",
     "devwatch": "node devwatch",
-    "browserDemoDev": "nodemon --delay 2500ms ./examples/browser/index.js",
     "browserDemo": "node ./examples/browser/index.js"
   },
   "files": [
