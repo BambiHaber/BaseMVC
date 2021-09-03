@@ -1,7 +1,7 @@
-import EventEmitter from 'event-emitter-es6/dist/event-emitter';
+import {Base} from './Base.js';
 import {SwissKnife} from "./SwissKnife";
 
-export class BaseCollection extends EventEmitter {
+export class BaseCollection extends Base {
 	constructor(data, options) {
 		super();
 

@@ -2,7 +2,7 @@ export class Template {
 
 	//Todo: enable customization of the token wrappers.. wouldnt work now because of interpolation detection of '=' sign,
 	//also move the constants outside. maybe this should be parsed with a stage 2+ babel plugin.
-	static _newRegex(rgxStr = '(<%=?(.*)?%>)', flags = 'gm') {
+	 static _newRegex(rgxStr = '(<%=?(.*)?%>)', flags = 'gm') {
 		return new RegExp(rgxStr, flags);
 	}
 

@@ -1,7 +1,7 @@
 import {Template} from "./Template";
-import EventEmitter from 'event-emitter-es6/dist/event-emitter';
+import {Base} from './Base.js';
 
-export class BaseView extends EventEmitter {
+export class BaseView extends Base {
 	constructor(options = {}) {
 		super();
 		this.options = options;

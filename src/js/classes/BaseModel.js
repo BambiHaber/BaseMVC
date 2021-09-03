@@ -1,4 +1,7 @@
+import {Base} from './Base.js';
+
 export class BaseModel {
+	 //defaults = {};
 	constructor(data, options = {}) {
 		this.options = options;
 		this.defaults = options.defaults || {};
@@ -16,12 +19,12 @@ export class BaseModel {
 		}
 	}
 
-	hasDefaults() {
+	get hasDefaults() {
 		return (this.constructor.defaults && typeof this.constructor.defaults === "object");
 	}
 
 
-	getDefaults() {
+	get defaults() {
 		return this.constructor.defaults;
 	}
 

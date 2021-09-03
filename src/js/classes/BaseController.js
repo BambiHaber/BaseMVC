@@ -1,4 +1,4 @@
-import * as EventEmitter from 'event-emitter-es6';
+import {Base} from './Base.js';
 
 /**
  * TODO: implement result types, and render of a result type to container, or method to bind a result to a component
